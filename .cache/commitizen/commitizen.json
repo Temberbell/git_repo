@@ -1,0 +1,13 @@
+{
+  "/home/svmochalkina": {
+    "template": "feat: idk",
+    "options": {
+      "args": [],
+      "disableAppendPaths": true,
+      "emitData": true,
+      "quiet": false,
+      "retryLastCommit": false,
+      "hookMode": false
+    }
+  }
+}
