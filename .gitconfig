@@ -1,0 +1,20 @@
+[user]
+	name = Sofia Mochalkina
+	email = temberbellket@gmail.com
+	signingkey = E0A43AFE2A1259F6
+[core]
+	quotepath = false
+	autocrlf = input
+	safecrlf = warn
+[init]
+	defaultBranch = master
+[commit]
+	gpgsign = true
+[gpg]
+	program = /usr/bin/gpg2
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
